@@ -1,0 +1,40 @@
+{
+  "name": "vendor",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 4000",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.6.1",
+    "@heroicons/react": "^1.0.6",
+    "classnames": "^2.3.1",
+    "dotenv": "^16.0.1",
+    "next": "12.1.6",
+    "next-compose-plugins": "^2.2.1",
+    "next-images": "^1.8.4",
+    "next-transpile-modules": "^9.0.0",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "shared": "0.0.1",
+    "styled-components": "^5.3.5",
+    "typescript": "^4.6.4"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.34",
+    "@types/react": "18.0.9",
+    "@types/react-dom": "18.0.4",
+    "autoprefixer": "^10.4.7",
+    "eslint": "8.15.0",
+    "eslint-config-next": "12.1.6",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.0.24",
+    "typescript": "4.6.4"
+  },
+  "resolutions": {
+    "styled-components": "^5"
+  }
+}
